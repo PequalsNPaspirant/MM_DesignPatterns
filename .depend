@@ -1,0 +1,7 @@
+
+obj/windows_gcc/Design_Patterns/DesignPatterns.o: src/Design_Patterns/DesignPatterns.cpp
+
+obj/windows_gcc/MM_DesignPatterns_main.o: src/MM_DesignPatterns_main.cpp \
+ ../MM_CommonUtils/src/WindowsUtils/WindowsUtils.h \
+ ../MM_CommonUtils/src/Timer/Timer.h \
+ ../MM_UnitTestFramework/src/MM_UnitTestFramework/MM_UnitTestFramework.h
